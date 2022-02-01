@@ -1,0 +1,8 @@
+.blog{
+    width:400px;
+    height:300px;
+    border:2px solid purple;
+    padding:5px 10px;
+    display:inline-block;
+    margin:4px;
+}

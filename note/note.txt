@@ -1,0 +1,26 @@
+<style>
+    body{
+        counter-reset: section;
+    }
+    p::before{
+        counter-increment:section;
+        content:counter(section)". ";
+    }
+    or
+    body{
+          counter-reset: reg;
+      }
+      p::before{
+          counter-increment: reg;
+          content:counter(reg)". ";
+      }
+</style>
+<p>Mazbaul</p>
+<p>Mamun</p>
+<p>Rezaul</p>
+<p>Atikur</p>
+<p>Jibon</p>
+
+p::before{
+          content:"❤️";
+      }
