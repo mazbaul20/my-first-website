@@ -24,3 +24,30 @@
 p::before{
           content:"❤️";
       }
+//transition
+<style>
+        .box{
+            height:300px;
+            width:300px;
+            background-color: black;
+            margin:0px auto;
+            border:1px solid cyan;
+            transition:background-color 2s ease 2s;
+        }
+        .box p{
+            text-align:center;
+            font-size:30px;
+            padding:20px;
+            
+        }
+        .box:hover{
+            background-color:red;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <p>Transition</p>
+    </div>
+</body>
+//end transition

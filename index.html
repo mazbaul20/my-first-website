@@ -8,24 +8,29 @@
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
     <style>
-        .logo img{
-            weight:100px;
-            height:100px;
+        .box{
+            height:300px;
+            width:300px;
+            background-color: black;
+            margin:0px auto;
+            border:1px solid cyan;
+            transition:width 2s ease 2s;
+        }
+        .box p{
+            text-align:center;
+            font-size:30px;
+            padding:20px;
+            
+        }
+        .box:hover{
+            /* background-color:red; */
+            width:500px;
         }
     </style>
 </head>
 <body>
-    <div class="logo">
-        <img src="images/optimized_large_thumb_stage.jpg" alt="">
-    </div>
-    <div class="box-1">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, quis adipisci? Vero, minima temporibus. Dicta culpa veritatis iure in et numquam reiciendis repudiandae voluptatem, enim totam aspernatur illum non aperiam saepe voluptates dolor dolores explicabo dolorum necessitatibus illo magnam? Iusto officia voluptatum temporibus sit officiis dolorum facere consequatur dignissimos id atque ducimus voluptas doloremque reprehenderit illum aliquam optio perferendis molestiae ut minima, blanditiis voluptatibus? Ut atque laudantium fugiat sunt minus, magni autem vitae voluptatibus necessitatibus maxime odio at distinctio dicta quas pariatur debitis molestiae totam! Dolore eum et sint debitis? Provident esse, voluptates sint sapiente possimus, expedita repellendus molestiae veniam reprehenderit officiis consectetur excepturi blanditiis qui voluptas amet beatae error dicta assumenda, minima quis dolore repellat tenetur quibusdam? Voluptate beatae inventore ea, labore unde id. Natus sapiente repudiandae eaque aperiam libero dicta neque ipsa deleniti perspiciatis tempore blanditiis quae, odit fuga possimus est quasi error iure vero aliquid modi. Perferendis ab minus possimus reprehenderit, similique et ipsum sint iusto corrupti.</p>
-    </div>
-    <div class="box-2">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur est obcaecati deserunt. Voluptates id molestiae, vero tempore, asperiores esse natus praesentium similique, doloremque delectus quasi recusandae dolorem ut sed fugiat suscipit reiciendis veniam vel maxime ullam placeat iusto ipsum. Sint quas aut, minima repellat ab, nemo sequi doloribus voluptas dignissimos veritatis nam possimus ipsa exercitationem! Sit cupiditate quam deleniti natus.</p>
-    </div>
-    <div class="svg">
-        <img src="images/android-logo.svg" alt="">
+    <div class="box">
+        <p>Transition</p>
     </div>
 </body>
 </html>
